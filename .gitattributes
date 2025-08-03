@@ -5,3 +5,4 @@ MedicalRecords_2023.csv filter=lfs diff=lfs merge=lfs -text
 MedicalRecords_2013.csv filter=lfs diff=lfs merge=lfs -text
 medical_records.db filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
+README.md text eol=lf encoding=utf-8
