@@ -1,6 +1,5 @@
 *.ipynb filter=lfs diff=lfs merge=lfs -text
 *.CSV filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
 MedicalRecords_2023.csv filter=lfs diff=lfs merge=lfs -text
 MedicalRecords_2013.csv filter=lfs diff=lfs merge=lfs -text
 medical_records.db filter=lfs diff=lfs merge=lfs -text
