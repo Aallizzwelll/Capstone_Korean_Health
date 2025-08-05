@@ -5,12 +5,18 @@ Korean Medical Records/History from 2013 & 2023
 The primary goal of the project is to look for differences between 2013 and 2023 in relation to utlization of mental health services.
 
 # Project Setup Instructions
- - Clone the repository
- - Navigate to the cloned directory
- - Set up a virtual environment and activate it
- - To ensure you have all the necessary packages, run
-     'pip install -r requirements.txt'
- - Run "Capstone.ipynb"
+
+Steps to run this project:
+
+The requirements to run this project are included in the 'Requirements.txt' folder. I created this project in a Jupyter notebook using Python (3.13.3) in a virtual environment.
+
+1. Clone the repository
+2. Navigate to the cloned directory
+3. Set up a virtual environment
+4. Activate virtual environment
+5. Install the required packages
+6. Run the Capstone.ipynb file
+7. When you’re done, deactivate the virtual environment by entering ‘deactivate’ in your terminal
 
 # Data Dictionary
 
