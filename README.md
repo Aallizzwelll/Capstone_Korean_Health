@@ -1,6 +1,6 @@
 CODE:KENTUCKY CAPSTONE PROJECT
 
-# INTRO
+# INTRO/OVERVIEW
 Korean Medical Records/History from 2013 & 2023
 The primary goal of the project is to look for differences between 2013 and 2023 in relation to utlization of mental health services.
 
@@ -12,15 +12,36 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 
 1. Clone the repository
 2. Navigate to the cloned directory
-3. Set up a virtual environment
-4. Activate virtual environment
-5. Install the required packages
+3. Set up a virtual environment and activate it
+5. Install the required packages by running 'pip install -r requirements.txt'
 6. Run the Capstone.ipynb file
 7. When you’re done, deactivate the virtual environment by entering ‘deactivate’ in your terminal
 
-# Data Dictionary
 
-## MEDICAL RECORDS (MAIN DATSET FROM 2013 & 2023)
+# TECHNOLOGIES/FEATURES USED
+- Python: Main programming language for data analysis and scripting
+- Chardet: Automatic detection of file encoding for robust data import
+- PANDAS: Data manipulation and analysis, including DataFrame operations
+- Jupyter Notebook: Interactive environment for code, visualization, and documentation
+- Matplotlib: Data visualization and plotting
+- SQLite3: SQL database for storing and querying large datasets
+
+
+# ABOUT DATA
+
+## DATA SOURCE
+
+Description from [DATA.GO.KR:](https://www.data.go.kr/en/data/15007115/fileData.do)
+
+“Medical history information is data consisting of basic information (gender, age group, city/province code, etc.) and medical history (medical department code, main disease code, number of treatment days, total prescription days, etc.) for 1 million patients in each year who have a medical history from a medical institution (hospital/clinic, etc.) among the National Health Insurance subscribers. For descriptions of codes for each item in the file, please refer to the 'Medical History Information User Manual'.”
+
+DATA from 2013 & 2023 are used for this project.
+
+## DATA SUMMARY
+
+## DATA DICTIONARY
+
+### MEDICAL RECORDS (MAIN DATSET FROM 2013 & 2023)
 | Original Columns     | Description/Translation             | Renamed Columns                     | MedicalRecords_2013 | MedicalRecords_2023 | Notes                                          |
 | :------------------- | :---------------------------------- | :---------------------------------- | :------------------ | :------------------ | :--------------------------------------------- |
 | 기준년도             | Reference Year                      | Reference_Year                      | X                   | X                   |                                                |
@@ -42,14 +63,14 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 | 심결보험자부담금     | adjusted insurer payment            | adjudicated_insurer_payment         | X                   | X                   |                                                |
 | 총처방일수           | Total prescription days             | total_prescription_days             | X                   | X                   |                                                |
 | 데이터 기준일자      |                                     |                                     | X                   | N/A                 | Deleted from 2013 dataset during data cleaning |
-## GENDER CODING
+### GENDER CODING
 
 | CODE  | SEX |
 |:-----|:----- |
 | 1 | MALE |
 | 2 | FEMALE |
 
-## AGE GROUPING
+### AGE GROUPING
 | Age group | Age     |
 | :-------- | :------ |
 | 1         | 0 - 4   |
@@ -71,7 +92,7 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 | 17        | 80 - 84 |
 | 18        | 85 +    |
 
-## AREA/CITY GROUPING
+### AREA/CITY GROUPING
 | Area Codes | Area_KR | Area_EN   |
 | :--------- | :------ | :-------- |
 | 11         | 서울    | Seoul     |
@@ -92,7 +113,7 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 | 49         | 제주    | Jeju      |
 | 41         | 세종    | Sejong    |
 
-## FORM CODES
+### FORM CODES
 | Form CODES | Description_KR          | Description_EN           |
 | :--------- | :---------------------- | :----------------------- |
 | 2          | 의과 입원               | Medical Inpatient        |
@@ -106,7 +127,7 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 | ZZ         | 결측                    | Missing                  |
 | -          | 정상 또는 해당사항 없음 | Not Applicable           |
 
-## MEDICAL DEPARTMENT CODES
+### MEDICAL DEPARTMENT CODES
 | Med_Dept_Code | Med_Dept_Code_KR        | Med_Dept_Code_EN                          |
 | :------------ | :---------------------- | :---------------------------------------- |
 | 0             | 일반의                  | General medicine                          |
@@ -157,11 +178,3 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 | 88            | 한방응급                | Oriental Medicine Emergency               |
 | ZZ            | 결측                    | Missing                                   |
 | -             | 정상 또는 해당사항 없음 | Not Applicable                            |
-# Data Summary
-
-# Data Source
-
-
-
-
-
