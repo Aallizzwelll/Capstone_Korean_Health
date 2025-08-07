@@ -20,18 +20,9 @@ The requirements to run this project are included in the 'Requirements.txt' fold
    | Activate   |`Source venv/bin/activate`        |`Source venv/Scripts/activate`    |
    | Install    | `Pip install -r requirements.txt` | `Pip install -r requirements.txt` |
    | Deactivate | `deactivate`                      | `deactivate`                      |
-5. Install the required packages by running 'pip install -r requirements.txt'
+5. Install the required packages by running `pip install -r requirements.txt`
 6. Run the Capstone.ipynb file
-7. When you’re done, deactivate the virtual environment by entering ‘deactivate’ in your terminal
-
-
-# TECHNOLOGIES/FEATURES USED
-- Python is the main programming language for data analysis and scripting
-- Chardet is used for detection of file encoding for robust data import
-- PANDAS is used for data manipulation and analysis, including DataFrame operations
-- Jupyter Notebook is used for coding & documentation
-- Matplotlib is used for data visualization and plotting
-- SQLite3 is used for SQL database for storing and querying large datasets
+7. When you’re done, deactivate the virtual environment by entering `deactivate` in your terminal
 
 
 # ABOUT DATA
@@ -48,3 +39,11 @@ DATA from 2013 & 2023 are used for this project.
 
 ## DATA DICTIONARY
 see Data Dictionary.ipynb file
+
+# TECHNOLOGIES/FEATURES USED
+- Python is the main programming language for data analysis and scripting
+- Chardet is used for detection of file encoding for robust data import
+- PANDAS is used for data manipulation and analysis, including DataFrame operations
+- Jupyter Notebook is used for coding & documentation
+- Matplotlib is used for data visualization and plotting
+- SQLite3 is used for SQL database for storing and querying large datasets
