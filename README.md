@@ -16,10 +16,10 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 
    | Command    | Linux/Mac                       | GitBash                         |
    | :--------- | :------------------------------ | :------------------------------ |
-   | Create     | Python3 -m venv venv            | Python -m venv venv             |
-   | Activate   | Source venv/bin/activate        | Source venv/Scripts/activate    |
-   | Install    | Pip install -r requirements.txt | Pip install -r requirements.txt |
-   | Deactivate | deactivate                      | deactivate                      |
+   | Create     | `Python3 -m venv venv`            | `Python -m venv venv`             |
+   | Activate   |`Source venv/bin/activate`        |`Source venv/Scripts/activate`    |
+   | Install    | `Pip install -r requirements.txt` | `Pip install -r requirements.txt` |
+   | Deactivate | `deactivate`                      | `deactivate`                      |
 5. Install the required packages by running 'pip install -r requirements.txt'
 6. Run the Capstone.ipynb file
 7. When you’re done, deactivate the virtual environment by entering ‘deactivate’ in your terminal
