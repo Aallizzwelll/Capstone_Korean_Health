@@ -10,10 +10,9 @@ Steps to run this project:
 
 The requirements to run this project are included in the 'Requirements.txt' folder. I created this project in a Jupyter notebook using Python (3.13.3) in a virtual environment.
 
-1. Clone the repository
+1. Clone the repository from Github
 2. Navigate to the cloned directory
 3. Set up a virtual environment & activate it
-
    | Command    | Linux/Mac                       | GitBash                         |
    | :--------- | :------------------------------ | :------------------------------ |
    | Create     | `Python3 -m venv venv`            | `Python -m venv venv`             |
@@ -35,15 +34,13 @@ Description from [DATA.GO.KR:](https://www.data.go.kr/en/data/15007115/fileData.
 
 DATA from 2013 & 2023 are used for this project.
 
-## DATA SUMMARY
-
 ## DATA DICTIONARY
-see Data Dictionary.ipynb file
+see [Data Dictionary.ipynb file](Data_Dictionary.ipynb)
 
 # TECHNOLOGIES/FEATURES USED
 - Python is the main programming language for data analysis and scripting
 - Chardet is used for detection of file encoding for robust data import
 - PANDAS is used for data manipulation and analysis, including DataFrame operations
-- Jupyter Notebook is used for coding & documentation
+- Jupyter Notebook is used for coding and documentation to allow clean, narrative-driven results
 - Matplotlib is used for data visualization and plotting
 - SQLite3 is used for SQL database for storing and querying large datasets
