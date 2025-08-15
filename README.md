@@ -26,7 +26,7 @@ The requirements to run this project are included in the 'Requirements.txt' fold
 
 # ABOUT DATA
 
-## DATA SOURCE
+## DATA DESCRIPTION/SOURCE
 
 Description from [DATA.GO.KR:](https://www.data.go.kr/en/data/15007115/fileData.do)
 
@@ -44,3 +44,5 @@ see [Data Dictionary.ipynb file](Data_Dictionary.ipynb)
 - Jupyter Notebook is used for coding and documentation to allow clean, narrative-driven results
 - Matplotlib is used for data visualization and plotting
 - SQLite3 is used for SQL database for storing and querying large datasets
+- VS Code is used for coding environment for writing codes, managing version control and organizing files
+- Github Copilot in VSCode is used to debug the codes
